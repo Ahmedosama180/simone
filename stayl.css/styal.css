@@ -72,15 +72,15 @@ padding:1.50rem 0;
 /* S E C T I O N - 1 */
 .sec1{
 
-background-image: url(../imges/intro-bg.jpg);
-background-position: center;
-background-size: cover;
-background-attachment:fixed;
-height:100vh;
 
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+  
+    background: url("../imges/intro-bg.jpg");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
  
 }
 
@@ -126,10 +126,15 @@ align-items: center;
     -webkit-animation:textanmatio;
             animation:textanmatio;
 
-                            animation-duration:15s;
-                            animation-iteration-count:infinite;
+                            -webkit-animation-duration:15s;
+
+                                    animation-duration:15s;
+                            -webkit-animation-iteration-count:infinite;
+                                    animation-iteration-count:infinite;
 }
 /* I'm a Designer.| */
+
+
 
 
 
