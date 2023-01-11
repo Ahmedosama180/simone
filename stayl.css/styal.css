@@ -77,6 +77,10 @@ background-position: center;
 background-size: cover;
 background-attachment:fixed;
 height:100vh;
+
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
  
 }
 
@@ -268,7 +272,8 @@ border-radius:0.25rem;
         width:100%;
     padding: 16px 20px;
      flex-direction:column;
-    }    
+    }  
+     
 }
 /* S E C T I O N - 2 */
 .about{
@@ -433,6 +438,7 @@ transition: all 0.5s ;
             width:100%;
         
            } 
+          
                .contant {
                 display: block;
           }
@@ -468,6 +474,7 @@ transition: all 0.5s ;
             width:50%;
           
            }
+
         }     
 @media screen and (min-width:700px) and (max-width:1000px){
    
